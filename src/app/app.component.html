@@ -1,0 +1,24 @@
+<div class="containter">
+  <div class="row">
+    <div class="col-sm-12">
+      <ul class="nav nav-tabs">
+        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+          <a class="active" routerLink="/home" skipLocationChange="true">home</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="active" routerLink="/about" skipLocationChange="true">about</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="active" routerLink="/contact" skipLocationChange="true">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
